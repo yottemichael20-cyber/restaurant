@@ -9,8 +9,7 @@ display:flex ;
 flex-direction: row;
 justify-content: space-around;
 font-family: 'Times New Roman', Times, serif;
-margin: 0 auto;
-margin-bottom: -50px;
+margin: 250px auto 0 auto;
         }
 .pr-text {
     width: 45%;
@@ -603,7 +602,7 @@ img {
     bottom: 0;
     left: 0;
     margin-left: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 .img small {
     color: gray;
@@ -634,7 +633,7 @@ font-size: 20px;
 
 .info-text{
     margin-top: -100px;
-    width: 90%;
+    width: 100%;
     padding: 0 90px 20px 30px;
     background-color: hsl(41, 39%, 91%);
 }
@@ -668,4 +667,12 @@ display: block;
     color: black;
     font-weight: 600;
     font-size: 18px;
+}
+
+/* version telephone*/
+
+@media  screen  and (max-width: 768px) {
+    body {
+        width: 95%;
+    }
 }
